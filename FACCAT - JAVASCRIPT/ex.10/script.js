@@ -1,0 +1,5 @@
+var custoFabrica = parseFloat(prompt("Digite o custo de fabrica: "))
+var porcentagemDistribuidor = parseFloat(28)
+var porcentagemImposto = parseFloat(45)
+var custoFinal = custoFabrica + (custoFabrica * porcentagemDistribuidor/100) + (custoFabrica * porcentagemImposto/100)
+alert("O custo final do carro para o consumidor é de R$" + custoFinal)
